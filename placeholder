@@ -1,0 +1,78 @@
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-header {
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;   
+
+    opacity: 98%;
+}
+
+.name {
+    font-size: 2rem;
+    margin-left: 10rem;
+    display: flex;
+    text-align: center;
+}
+
+
+.Diffcolor {
+    color: rgb(134, 75, 27);
+    padding-left: 1.4rem;
+}
+
+ul {
+
+    display: flex;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(134, 75, 27);
+}
+
+.headerItem:hover {
+    transform: scale(1.35);
+}
+
+
+
+.headerItem {
+    list-style-type: none;
+    padding: 2.5rem;
+    font-size: 1.25rem;
+    transition: transform 0.3s ease;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="name"> Abdirahman's <div class="Diffcolor">Portfolio</div></div>
+        <ul>
+            <li class="headerItem"><a href="Home.html">Home</a></li>
+            <li class="headerItem"><a href="Portfolio.html">Portfolio</a></li>
+            <li class="headerItem"><a href="Contact.html">Contact</a></li>
+        </ul>
+    </header>
+</body>
+</html>
